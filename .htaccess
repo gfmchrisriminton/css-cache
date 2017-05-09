@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^(.*)$ css_minify.php?file=$1 [NC,L,QSA]
